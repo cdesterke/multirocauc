@@ -43,6 +43,14 @@ rocplot(roc.list,line=0.5,title="KRAS network ~ OS pancreas cancer",police=14)
 ```
 ![res](https://github.com/cdesterke/multirocauc/blob/main/rocplot.png)
 
+## output table of AUC
 
+```r
+
+roc.table<-roctable(roc.list)
+roc.table
+
+```
+![res](https://github.com/cdesterke/multirocauc/blob/main/roctable.png)
 
 
