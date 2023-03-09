@@ -1,0 +1,12 @@
+Package: multirocauc
+Type: Package
+Title: draw multi ROC with AUC
+Version: 1.0.0
+Author: Who wrote it
+Maintainer: The package maintainer <christophe.desterke@gmail.com>
+Description: This package allow to draw multi ROC with relative AUC as legends.
+      This package also can output auc table of the tested variables.
+License: MIT
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.2.3
