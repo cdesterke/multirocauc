@@ -32,3 +32,17 @@ roc.list
 
 ```
 ![res](https://github.com/cdesterke/multirocauc/blob/main/roclist.png)
+
+
+## code for drwing multiroc curve with AUC
+
+```r
+rocplot(roc.list,line=0.5,title="KRAS network ~ OS pancreas cancer",police=14)
+
+
+```
+![res](https://github.com/cdesterke/multirocauc/blob/main/rocplot.png)
+
+
+
+
