@@ -53,4 +53,7 @@ roc.table
 ```
 ![res](https://github.com/cdesterke/multirocauc/blob/main/roctable.png)
 
-
+## filter item with auc superior 0.7
+```r
+roc_list_filtered <- Filter(function(x) !is.null(x$auc) && as.numeric(x$auc) > 0.7, roc.list)
+```
